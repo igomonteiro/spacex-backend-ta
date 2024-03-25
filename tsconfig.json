@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es2020",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "sourceMap": true,
+    "declaration": true,
+    "strictNullChecks": true,
+    "noUnusedLocals": true,
+    "pretty": true,
+    "skipLibCheck": true,
+    "lib": ["es2020"],
+    "jsx": "preserve"
+  },
+  "sourceMap": true,
+  "outDir": ".build",
+  "moduleResolution": "node",
+  "rootDir": "./"
+}
